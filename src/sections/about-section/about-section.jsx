@@ -109,7 +109,7 @@ function AboutSection() {
               className="w-full h-10 flex flex-col gap-1 py-2 overflow-hidden"
             >
               <h2 className="">
-                "Read Me" da qancha ko'nikmalar taqdim etilgan ?
+                "Read Me" da qanday ko'nikmalar bor ?
               </h2>
               <p className="text-sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.

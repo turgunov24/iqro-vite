@@ -47,11 +47,12 @@ function Navbar() {
       >
         {navLinks.map((link) => (
           <li
-            onClick={() =>
+            onClick={() => {
               scrollSection({
                 px: link.px,
-              })
-            }
+              });
+              setToggle(false);
+            }}
             key={link.name}
             className="text-center text-sm py-2 hover:text-white"
           >

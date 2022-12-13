@@ -15,7 +15,7 @@ function AboutSection() {
       <div className="w-full flex flex-col items-center gap-5 md:gap-10">
         <div className="w-full flex flex-col gap-5 md:flex-row items-end">
           <div className="w-full flex flex-col gap-3 md:w-1/2">
-            <h6 className="text-sm font-bold">Why choose us</h6>
+            <h6 className="text-sm font-bold">Nega aynan biz ?</h6>
             <h2 className="text-lg font-semibold sm:text-xl md:text-2xl lg:text-4xl">
               What you choose also <br /> chooses you.
             </h2>
@@ -66,7 +66,7 @@ function AboutSection() {
           <img src={image} className="w-full h-full object-cover" />
         </div>
         <div className="w-full h-full flex flex-col items-start justify-start gap-3 py-3 md:w-1/2">
-          <h6 className="text-sm font-bold">Frequently asked questions</h6>
+          <h6 className="text-sm font-bold">Ko'p so'raladigan savollar</h6>
           <h2 className="text-lg font-semibold sm:text-xl md:text-2xl lg:text-4xl">
             One time in high school.
           </h2>
@@ -75,7 +75,7 @@ function AboutSection() {
               onClick={dropdownToggle}
               className="w-full h-10 flex flex-col gap-1 py-2 overflow-hidden"
             >
-              <h2 className="">What is the Return Policy ?</h2>
+              <h2 className="">Qaytarish siyosati nima ?</h2>
               <p className="text-sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Magnam, perspiciatis.
@@ -86,7 +86,7 @@ function AboutSection() {
               onClick={dropdownToggle}
               className="w-full h-10 flex flex-col gap-1 py-2 overflow-hidden"
             >
-              <h2 className="">What is the Return Policy ?</h2>
+              <h2 className="">Kurslar oldindan yozib olinadimi ?</h2>
               <p className="text-sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Magnam, perspiciatis.adipisicing elit. Magnam, perspiciatis.
@@ -97,7 +97,7 @@ function AboutSection() {
               onClick={dropdownToggle}
               className="w-full h-10 flex flex-col gap-1 py-2 overflow-hidden"
             >
-              <h2 className="">What is the Return Policy ?</h2>
+              <h2 className="">"Read Me" ga qanday qo'shilaman ?</h2>
               <p className="text-sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Magnam, perspiciatis.
@@ -108,7 +108,9 @@ function AboutSection() {
               onClick={dropdownToggle}
               className="w-full h-10 flex flex-col gap-1 py-2 overflow-hidden"
             >
-              <h2 className="">What is the Return Policy ?</h2>
+              <h2 className="">
+                "Read Me" da qancha ko'nikmalar taqdim etilgan ?
+              </h2>
               <p className="text-sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Magnam, perspiciatis.adipisicing elit. Magnam, perspiciatis.

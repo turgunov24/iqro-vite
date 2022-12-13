@@ -5,14 +5,14 @@ export const navLinks = [
     },
     {
         name: "Subjects",
-        px: 0
+        px: 800
     },
     {
         name: "Testimonials",
-        px: 0
+        px: 1300
     },
     {
         name: "Contact us",
-        px: 0
+        px: 5000
     }
 ]

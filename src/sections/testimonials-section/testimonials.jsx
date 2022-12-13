@@ -3,8 +3,7 @@ import React from "react";
 
 //additional
 import "./testimonials.css";
-import child1 from "../../assets/testimonials-child1.jpg";
-import child2 from "../../assets/testimonials-child2.jpg";
+import childs from "../../assets/childs.png";
 
 function TestimonialSection() {
   return (
@@ -13,12 +12,7 @@ function TestimonialSection() {
       className="w-full min-h-max flex flex-col items-center gap-5 py-16 px-10 sm:px-14 md:px-16 md:flex-row justify-between"
     >
       <div className="relative w-full h-full flex items-center justify-center md:w-1/2">
-        <div id="testimonials-img-1" className="h-96 w-60 border-5 border-ylw rounded-full overflow-hidden">
-          <img src={child1} className="w-full h-full object-cover" />
-        </div>
-        <div id="testimonials-img-2" className="absolute bottom-0 left-0 h-64 w-48 border-5 border-green rounded-t-full overflow-hidden">
-          <img src={child2} className="w-full h-full object-cover" />
-        </div>
+        <img src={childs} className="object-cover" />
       </div>
       <div className="w-full flex flex-col items-start gap-3 py-3 md:w-1/2">
         <h6 className="text-sm font-bold">Testimonial</h6>

@@ -20,14 +20,16 @@ function AboutSection() {
           <div className="w-full flex flex-col gap-3 md:w-1/2">
             <h6 className="text-sm font-bold">Nega aynan biz ?</h6>
             <h2 className="text-lg font-semibold sm:text-xl md:text-2xl lg:text-4xl">
-              What you choose also <br /> chooses you.
+              Nega aynan bizni <br /> tanlashingiz kerak.
             </h2>
           </div>
           <div className="w-full md:w-1/2">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque id ex eum excepturi porro itaque ab ad fugit enim.
-              Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing.
+              Iqro kids - mental arifmetika va turli yo'nalishlar bo'yicha
+              maktab o'quvchilari va o'qituvchilariga dars o'tamiz. Ikki yildan
+              beri shu soxada faoliyat yuritamiz. Sifatli ta'lim va soha
+              mutaxasislari tomonidan arzon narxda o'tiladigan kam sonli
+              markazlardan birimiz.
             </p>
           </div>
         </div>
@@ -40,8 +42,8 @@ function AboutSection() {
             </div>
             <h2 className="font-semibold">Tajribali ustozlar</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-              impedit ad incidunt!
+              Darslar qiziqarli qoʻllanmalar va tajribali ustozlar tamonidan
+              olib boriladi.
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-3 p-5 duration-300 rounded-xl border-1 border-grey sm:w-80 hover:shadow-xl hover:border-none">
@@ -52,8 +54,8 @@ function AboutSection() {
             </div>
             <h2 className="font-semibold">Bola tarbiyasi</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-              impedit ad incidunt!
+              Xususan, bola va uning tarbiyasiga va bilimiga qattiq e'tibor
+              beriladi.
             </p>
           </div>
           <div className="w-full flex flex-col items-start gap-3 p-5 duration-300 rounded-xl border-1 border-grey sm:w-80 hover:shadow-xl hover:border-none">
@@ -64,8 +66,8 @@ function AboutSection() {
             </div>
             <h2 className="font-semibold">Zamonaviy ta'lim</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-              impedit ad incidunt!
+              ta'limdagi metodlar ko'chirilamagan va yillar davomida eskirmagan.
+              Qisqa muddatda yuqori va sifatli natija olishga yo'naltirilgan
             </p>
           </div>
         </div>

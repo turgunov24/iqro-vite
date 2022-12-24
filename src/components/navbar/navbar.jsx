@@ -34,7 +34,15 @@ function Navbar() {
           : "fixed w-full px-10 py-3 flex items-center justify-between z-30 bg-scroll duration-300 sm:px-14 md:px-16 md:py-5"
       }
     >
-      <div className="w-max flex gap-2 items-center justify-between">
+      <div
+        onClick={() => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        }}
+        className="w-max flex gap-2 items-center justify-between hover:cursor-pointer"
+      >
         <img src={logoImage} className="w-10 h-10 rounded-full" />
         <h5 className="">Iqro kids</h5>
       </div>

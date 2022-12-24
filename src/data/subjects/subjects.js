@@ -13,13 +13,13 @@ export const subjects = [
         description: "General Science is a group of subjects Physics,Chemistry,Biology,Life Science."
     },
     {
-        name: "Dasturlash",
+        name: "Kognitiv",
         icon: "<AiOutlineCode />",
         bg:"bg-red",
         description: "General Science is a group of subjects Physics,Chemistry,Biology,Life Science."
     },
     {
-        name: "Matematika",
+        name: "Pedagogika",
         icon: "<TbMathFunction />",
         bg:"bg-green",
         description: "General Science is a group of subjects Physics,Chemistry,Biology,Life Science."

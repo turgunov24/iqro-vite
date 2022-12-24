@@ -2,6 +2,9 @@
 import React from "react";
 //icons
 import { BsFillPeopleFill } from "react-icons/bs";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { GiTeacher } from "react-icons/gi";
+import { RiComputerLine } from "react-icons/ri";
 //additional
 import image from "../../assets/about.png";
 
@@ -31,9 +34,11 @@ function AboutSection() {
         <div className="w-full flex flex-wrap justify-center gap-5 md:justify-around md:gap-10">
           <div className="w-full flex flex-col items-start gap-3 p-5 duration-300 rounded-xl border-1 border-grey sm:w-80 hover:shadow-xl hover:border-none">
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-green">
-              <h6 className="text-white text-lg">m</h6>
+              <h6 className="text-white text-lg">
+                <FaChalkboardTeacher />
+              </h6>
             </div>
-            <h2 className="font-semibold">Expert Mentors</h2>
+            <h2 className="font-semibold">Tajribali ustozlar</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
               impedit ad incidunt!
@@ -41,9 +46,11 @@ function AboutSection() {
           </div>
           <div className="w-full flex flex-col items-start gap-3 p-5 duration-300 rounded-xl border-1 border-grey sm:w-80 hover:shadow-xl hover:border-none">
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-violet">
-              <h6 className="text-white text-lg">m</h6>
+              <h6 className="text-white text-lg">
+                <GiTeacher />
+              </h6>
             </div>
-            <h2 className="font-semibold">Child management</h2>
+            <h2 className="font-semibold">Bola tarbiyasi</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
               impedit ad incidunt!
@@ -51,9 +58,11 @@ function AboutSection() {
           </div>
           <div className="w-full flex flex-col items-start gap-3 p-5 duration-300 rounded-xl border-1 border-grey sm:w-80 hover:shadow-xl hover:border-none">
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-red">
-              <h6 className="text-white text-lg">m</h6>
+              <h6 className="text-white text-lg">
+                <RiComputerLine />
+              </h6>
             </div>
-            <h2 className="font-semibold">Group studying</h2>
+            <h2 className="font-semibold">Zamonaviy ta'lim</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
               impedit ad incidunt!
@@ -108,9 +117,7 @@ function AboutSection() {
               onClick={dropdownToggle}
               className="w-full h-10 flex flex-col gap-1 py-2 overflow-hidden"
             >
-              <h2 className="">
-                "Read Me" da qanday ko'nikmalar bor ?
-              </h2>
+              <h2 className="">"Read Me" da qanday ko'nikmalar bor ?</h2>
               <p className="text-sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Magnam, perspiciatis.adipisicing elit. Magnam, perspiciatis.

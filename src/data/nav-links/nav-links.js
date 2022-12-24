@@ -1,18 +1,18 @@
 export const navLinks = [
     {
-        name: "Home",
+        name: "Bosh sahifa",
         px: 0
     },
     {
-        name: "Subjects",
+        name: "Fanlar",
         px: 800
     },
     {
-        name: "Testimonials",
+        name: "Izohlar",
         px: 1300
     },
     {
-        name: "Contact us",
+        name: "Aloqa",
         px: 5000
     }
 ]

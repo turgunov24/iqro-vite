@@ -1,0 +1,47 @@
+/* background-color */
+#subject-section #subject-yellow:hover {
+  background: var(--yellow-clr);
+}
+#subject-section #subject-green:hover {
+  background: var(--green-clr);
+}
+#subject-section #subject-violet:hover {
+  background: var(--violet-clr);
+}
+#subject-section #subject-red:hover {
+  background: var(--red-clr);
+}
+/* icon-background */
+#subject-section #subject-yellow:hover > div {
+  background: var(--white-clr);
+  color: var(--yellow-clr);
+  font-weight: 600;
+}
+#subject-section #subject-green:hover > div {
+  background: var(--white-clr);
+  color: var(--green-clr);
+  font-weight: 600;
+}
+#subject-section #subject-violet:hover > div {
+  background: var(--white-clr);
+  color: var(--violet-clr);
+  font-weight: 600;
+}
+#subject-section #subject-red:hover > div {
+  background: var(--white-clr);
+  color: var(--red-clr);
+  font-weight: 600;
+}
+/* title-background */
+#subject-section #subject-yellow:hover > h2 {
+  color: var(--white-clr);
+}
+#subject-section #subject-green:hover > h2 {
+  color: var(--white-clr);
+}
+#subject-section #subject-violet:hover > h2 {
+  color: var(--white-clr);
+}
+#subject-section #subject-red:hover > h2 {
+  color: var(--white-clr);
+}

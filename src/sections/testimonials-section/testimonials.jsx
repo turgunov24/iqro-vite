@@ -15,7 +15,7 @@ function TestimonialSection() {
         <img src={childs} className="object-cover" />
       </div>
       <div className="w-full flex flex-col items-start gap-3 py-3 md:w-1/2">
-        <h6 className="text-sm font-bold">Testimonial</h6>
+        <h6 className="text-sm font-bold">Izohlar</h6>
         <h2 className="text-lg font-semibold sm:text-xl md:text-2xl lg:text-4xl">
           To us, it's weird when people review improv at all.
         </h2>
